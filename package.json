@@ -1,0 +1,43 @@
+{
+  "name": "farmacia-payment-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_OPTIONS='--inspect' next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "generate:watch": "graphql-codegen --watch",
+    "generate": "graphql-codegen"
+  },
+  "dependencies": {
+    "@saleor/app-sdk": "^0.43.0",
+    "@types/node": "20.4.4",
+    "@types/react": "18.2.16",
+    "@types/react-dom": "18.2.7",
+    "@urql/exchange-auth": "^1.0.0",
+    "autoprefixer": "10.4.14",
+    "eslint": "8.45.0",
+    "eslint-config-next": "13.4.12",
+    "graphql": "^16.7.1",
+    "graphql-tag": "^2.12.6",
+    "next": "13.4.12",
+    "postcss": "8.4.27",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.1.6",
+    "urql": "^4.0.5"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^4.0.1",
+    "@graphql-codegen/introspection": "^4.0.0",
+    "@graphql-codegen/typed-document-node": "^5.0.1",
+    "@graphql-codegen/typescript": "^4.0.1",
+    "@graphql-codegen/typescript-apollo-client-helpers": "^2.2.6",
+    "@graphql-codegen/typescript-operations": "^4.0.1",
+    "@graphql-codegen/typescript-react-apollo": "^3.3.7",
+    "@graphql-codegen/typescript-urql": "^3.7.3",
+    "@graphql-codegen/urql-introspection": "^2.2.1"
+  }
+}

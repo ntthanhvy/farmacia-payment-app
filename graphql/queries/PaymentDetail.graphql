@@ -1,0 +1,20 @@
+query PaymentDetail($id: ID!) {
+	payment(id: $id) {
+		id
+		gateway
+		created
+		modified
+		order {
+			id
+		}
+		paymentMethodType
+		chargeStatus
+		total {
+			amount
+		}
+		capturedAmount {
+			amount
+		}
+		metafields
+	}
+}
